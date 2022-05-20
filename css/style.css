@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+}
+
+html, body {
+    font-family: Tahoma, sans-serif;
+    font-style: 16px;
+    background: rgb(104, 104, 247);
+}
+
+p {
+    line-height: 150%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.style-head {
+    max-width: 1400px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.main {
+    width: 100%;
+}
+
+.main::after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.sidebar {
+    padding-left: 10px;
+    width: 18%;
+    float: left;
+    margin-right: 2%;
+}
+
+.img {
+    width: 100%;
+}
+
+.home {
+    width: 58%;
+    float: left;
+    margin-right: 2%;
+}
+
+.sidebar ul a {
+    text-decoration: none;
+}
+
+a {
+    color: black;
+}
